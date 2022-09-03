@@ -7,6 +7,7 @@ const TeamChannelList = ({
   error = false,
   loading,
   type,
+  setToggleContainer,
   ...restProps
 }) => {
   if (error) {
