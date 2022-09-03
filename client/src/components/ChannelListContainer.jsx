@@ -67,7 +67,7 @@ const ChannelListContent = (props) => {
 
       <div className="channel-list__list__wrapper">
         <CompanyHeader />
-        <ChannelSearch />
+        <ChannelSearch {...props} />
 
         <ChannelList
           filters={filters}
